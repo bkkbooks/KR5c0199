@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0199/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0199/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 正一醮墓儀
+  date: '2015-08-29 00:54:20.056480'
+  source:
+    repository: kanripo
+    path: KR5c0199
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0199_000-ZTDZ.yaml, hash: 'sha256:a11bf4f9357ef9dd062c2d052d2367e3e444b37deb7c4c25f1446aac61338cc6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0199_000-ZTDZ.markers.yaml, hash: 'sha256:7625e71ead5b53b3cec6ff080b73336e9aedeb9cb1de9a52b9a6bf0e34730f81'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0199_SJB_000-180299c
+    span:
+    - body
+    - 0
+    - 1016
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f3d3fab8c638d4aa5a31259a428684009e1df4151438c576e899e01d69831bfa
